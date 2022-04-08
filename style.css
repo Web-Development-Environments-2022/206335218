@@ -3,5 +3,34 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background-color: rgb(53, 205, 239);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 100px auto;
+	color: #020202;
+	text-align: center;
+	font-size: 30px;
+	max-width: 600px;
+	position: relative;
+  }
+h1:before, h1:after {
+	content: "";
+	display: block;
+	width: 500px;
+	height: 5px;
+	background: rgb(53, 205, 239);
+	top: 50%;
+	position: absolute;
+}
+h1:before {
+	left: -330px;
+}
+h1:after {
+	right: -330px;
+
+}
+.section h2,h3,h4{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
