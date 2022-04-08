@@ -14,7 +14,7 @@ h1 {
 	font-size: 30px;
 	max-width: 600px;
 	position: relative;
-  }
+}
 h1:before, h1:after {
 	content: "";
 	display: block;
