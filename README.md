@@ -16,7 +16,7 @@ The website conatins:
 
 
 The URL for my website is:
-https://Web-Development-Environments-2021.github.io/assignment1-stavke/index.html
+https://web-development-environments-2022.github.io/assignment1-stavke/index.html
 
 
 Enjoy :)
