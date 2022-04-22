@@ -1,308 +1,216 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<a href="#about">About Me | </a>
-<a href="#photos">My Photos | </a>
-<a href="#playlist">My Playlist | </a>
-<a href="#like">Like | </a>
-<a href="#qrcoder">QR code | </a>
-<a href="#spa">Q&A | </a>
-<a href="#contact">Contact Me</a>
-<img style="float: right;" src=logo.jpg width=180 height=100 align="right"><img/>
-</div>
-		  
-<section id="about" class="section">
-<br/> 
-<!-- <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> -->
-<h1>About Me</h1>
-<br/>
-<!-- <h2></h2> -->
-<br/>
-</section>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<h1>My Photos</h1> 
-<br/>
-<table align="center">
-  <tr>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-  </tr>
-  <tr>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-  </tr>
-  <tr>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-  </tr>
-  <tr>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-    <td width="50%"><img style="float: right;" src=img.png width = 270px height=300px></td>
-  </tr>
-</table>
-<br/>
-<br/>
-</section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"/>
 
-<section id="playlist" class="section">
-<br/>
-<!-- <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> -->
-<h1>My Playlist</h1>
-<br/>
-<!-- <center><iframe width="480" height="270" src="https://www.youtube.com/embed/rgqHT-iy8kA"></iframe> 
-</center>  -->
-<center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-<br/>
-<br/>
-</section>
+  </head>
+  <body>
+    <nav class="navMenu">
+      <center>
+      <a href="#about">About Me</a>
+      <a href="#photos">My Photos</a>
+      <a href="#playlist">My Playlist</a>
+      <a href="#like">Like</a>
+      <a href="#qrcoder">QR code</a>
+      <a href="#spa">Q&A</a>
+      <a href="#contact">Contact Me</a>
+      </center>
+    </nav>
+    <img style="float: right;" src=logo.jpg width=180 height=100 align="right"><img/>
 
-<section id="like" class="section">
-<br/>
-<!-- <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> -->
-<h1>Give Me A Like</h1>
-<br/>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" 
-      src="https://connect.facebook.net/en_US/he_IL/sdk.js#xfbml=1&version=v13.0"
-      nonce="4jVGaifN"></script>
+    <section id="about" class="section">
+      <br/> 
+      <h1>About Me</h1>
+      <br/>
+      <center>
+      <h4>
+        One month ago, i lost my grandmother. This is a story about her... <br><br>
+        She was born in Iraq 88 years ago, and her childhood was not easy at all. <br>
+        She had six sisters and her mother was expecting a baby. Her mother and the baby both died in childbirth. <br>
+        Her father then remarried her mother's sister, who have five more children. <br>
+        My grandmother married my grandfather in 1953. <br>
+        My grandfather passed away 21 years ago, and my granmother has lived in Ramat Gan since then. <br>
+        She had 7 children, 23 grandchildren and 20 great-grandchildren who loved her very much. <br>
+        Her hobbies were: listening to music, watching TV, traveling, cooking, etc. <br>
+        Her favorite foods were cubes (of all colors). <br>
+        We all miss her so much! <br>
+      </h4>
+      </center>
+      <br/>
+    </section>
 
-<!-- Your like button code -->
-<div class="fb-like" 
-      data-href="https://Web-Development-Environments-2021.github.io/assignment1-stavke/index.html" 
-      data-width="20"
-      data-layout="standard" 
-      data-action="like" 
-      data-size="small"  
-      data-share="true"></div>
-<br/>
-<br/>
-</section>
+    <section id="photos" class="gallery">
+      <br/>
+      <br/>
+      <h1>My Photos</h1> 
+      <br/>
+      <center>
+        <a href=N1_small.jpg data-lightbox="gallery"><img src=N1_big.jpg></a>
+        <a href=N2_small.jpg><img src=N2_big.jpg></a>
+        <a href=N3_small.jpg><img src=N3_big.jpg></a>
+        <a href=N4_small.jpg><img src=N4_big.jpg></a>
+      </center>
+      <br/>
+      <br/>
+    </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<!-- <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> -->
-<h1>Scan My Code</h1>
-<br/>
-<center>
-  <img src=img.png id="qrcode" class="center"/>
-</center>
-<br/>
-<br/>
-</section>
+    <section id="playlist" class="section">
+      <br/>
+      <h1>My Playlist</h1>
+      <br/>
+      <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GI4GsYyofas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </center>
+    </section>
+    
+    <section id="like" class="section">
+      <br/>
+      <h1>Give Me A Like</h1>
+      <br/>
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v13.0" nonce="hbK7SIlz"></script>
+      <!-- like button code -->
+      <center>
+        <div class="fb-like" data-href="https://web-development-environments-2022.github.io/206335218/index.html" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+      </center>
+      <br/>
+      <br/>
+    </section>
 
-<section id="spa" class="section">
-<br/>
-<!-- <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> -->
-<h1>Question&Answer</h1>
-<br/>
-<h3>
-  This table compares some differences between web 1.0, web 2.0 and web 3.0:
-</h3>
-<br/>
-<center>
-<table border="1" align="center" cellpadding=10 cellspacing="0" bordercolor="#111111" width="100%">
-  <tr>
-    <td width="25%"></td>
-    <td width="25%" align="center"><h3>Web1</h3></td>
-    <td width="25%" align="center"><h3>Web2</h3></td>
-    <td width="25%" align="center"><h3>Web3</h3></td>
-  </tr>
-  <tr>
-    <td width="25%" align="center"><h4>Definition</h4></td>
-    <td width="25%" align="center"><h4>Read only web</h4></td>
-    <td width="25%" align="center"><h4>Read and write web</h4></td>
-    <td width="25%" align="center"><h4>Read, write and execute web</h4></td>
-  </tr>
-  <!-- <tr>
-    <td width="33%" align="center"><h4>Company Focus</h4></td>
-    <td width="33%" align="center"><h4>Community Focus</h4></td>
-    <td width="33%" align="center"><h4>Individual Focus</h4></td>
-  </tr> -->
-  <tr>
-    <td width="25%" align="center"><h4>Content</h4></td>
-    <td width="25%" align="center"><h4>Companies publish content that people consume (e.g.CNN)</h4>
-    </td>
-    <td width="25%" align="center"><h4>People publish content that other
-      people can consume, companies build platforms that let people
-      publish content for other people (e.g. Flickr, YouTube, Adsense, Wikipedia, Blogger, MySpace,
-      RSS, Digg)</h4>
-    </td>
-    <td width="25%" align="center"><h4>People build applications that people can interact with,
-      companies build platforms that let people publish services by
-      leveraging the associations between people or special content ( e. g. Face Book,
-      Google Maps, My Yahoo!)</h4>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" align="center"><h4>Search Engines</h4></td>
-    <td width="25%" align="center"><h4>In Web 1.0 search engines
-      retrieve macro contents. Search is very fast but
-      many times results are inaccurate or more than users can chew.</h4>
-    </td>
-    <td width="25%" align="center"><h4>In Web 2.0 search engines
-      retrieve tags with micro contents (Furl even retrieves tags with
-      macro contents). The process of tagging is manual, tedious and
-      covers negligible percents of the WWW. Web 2.0 tags everything: pictures, links, events,
-      news, Blogs, audio, video, and so on. Google Base even retrieves micro content texts.</h4>
-    </td>
-    <td width="25%" align="center"><h4>In Web 3.0 search engines will
-      hopefully retrieve micro content texts which were tagged
-      automatically. This implies translating billions of Web 1.0
-      macro contents into micro contents. The result could be more
-      precise search because tagging can solve part of the ambiguity
-      that homonyms and synonyms introduce into the process of Search.</h4>
-    </td>
-  </tr>
-</table>
-</center>
-<br/>
-<h3>
-  Use Case Exmaple - 
-  <li>Web 1 - </li>
-  <li>Web 2 - </li>
-  <li>Web 3 - </li>
-</h3>
-<br/>
-</section>
+    <section id="qrcoder" class="section">
+      <br/>
+      <h1>Scan My Code</h1>
+      <br/>
+      <center>
+        <img src=img.png id="qrcode" class="center"/>
+      </center>
+      <br/>
+      <br/>
+    </section>
 
-<section id="contact" class="section">
-<br/>
-<!-- <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> -->
-<h1>Contact Me</h1>
-<br/>
-<center>
-<h3>
-  <form action="mailto:stavke@post.bgu.ac.il">
-    Name:<br>
-    <input type="text"><br>
-    E-mail:<br>
-    <input type="text"><br>
-    Comment:<br>
-    <textarea></textarea><br/><br/>
-    <!-- <script>
+    <section id="spa" class="section">
+      <br/>
+      <h1>Q&A</h1>
+      <br/>
+      <h3>
+        This table compares some differences between web 1.0, web 2.0 and web 3.0:
+      </h3>
+      <br/>
+      <center>
+      <table border="1" align="center" cellpadding=10 cellspacing="0" bordercolor="#111111" width="100%">
+        <tr>
+          <td width="25%"></td>
+          <td width="25%" align="center"><h3>Web1</h3></td>
+          <td width="25%" align="center"><h3>Web2</h3></td>
+          <td width="25%" align="center"><h3>Web3</h3></td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><h4>Definition</h4></td>
+          <td width="25%" align="center"><h4>Read only web</h4></td>
+          <td width="25%" align="center"><h4>Read and write web</h4></td>
+          <td width="25%" align="center"><h4>Read, write and execute web</h4></td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><h4>Content</h4></td>
+          <td width="25%" align="center"><h4>Companies publish content that people consume (e.g.CNN)</h4>
+          </td>
+          <td width="25%" align="center"><h4>People publish content that other
+            people can consume, companies build platforms that let people
+            publish content for other people (e.g. Flickr, YouTube, Adsense, Wikipedia, Blogger, MySpace,
+            RSS, Digg)</h4>
+          </td>
+          <td width="25%" align="center"><h4>People build applications that people can interact with,
+            companies build platforms that let people publish services by
+            leveraging the associations between people or special content (e. g. Facebook,
+            Google Maps, My Yahoo!)</h4>
+          </td>
+        </tr>
+        <tr>
+          <td width="25%" align="center"><h4>Search Engines</h4></td>
+          <td width="25%" align="center"><h4>In Web 1.0 search engines
+            retrieve macro contents. Search is very fast but
+            many times results are inaccurate or more than users can chew.</h4>
+          </td>
+          <td width="25%" align="center"><h4>In Web 2.0 search engines
+            retrieve tags with micro contents (Furl even retrieves tags with
+            macro contents). The process of tagging is manual, tedious and
+            covers negligible percents of the WWW. Web 2.0 tags everything: pictures, links, events,
+            news, Blogs, audio, video, and so on. Google Base even retrieves micro content texts.</h4>
+          </td>
+          <td width="25%" align="center"><h4>In Web 3.0 search engines will
+            hopefully retrieve micro content texts which were tagged
+            automatically. This implies translating billions of Web 1.0
+            macro contents into micro contents. The result could be more
+            precise search because tagging can solve part of the ambiguity
+            that homonyms and synonyms introduce into the process of Search.</h4>
+          </td>
+        </tr>
+      </table>
+      </center>
+      <br/>
+      <h4>
+        <u>Use Case Exmaple - Side effects of drugs</u>
+        <li><u>Web 1</u> - In order to find "the side effects of drugs", the user must enter URL.</li>
+        <li><u>Web 2</u> - In order to find results, we can use "the side effects of drugs" as a query to a search engines. 
+          Search engines retrieve tags. </li>
+        <li><u>Web 3</u> - In order to find results, we can use "the side effects of drugs" as a query to a search engines.
+          The result could be more precise search because tagging can solve part of the ambiguity that homonyms and synonyms introduce into the process of Search.</li>
+      </h4>
+      <br/>
+    </section>
 
-      $(document).ready(function() {
-        $("#Textarea").emojioneArea({
-        pickerPosition: "top"});
-      })
-  
-    </script> -->
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-    </form>
-</h3>
-</center>
-<br/>
-<br/>
-</section>
+    <section id="contact" class="section">
+      <br/>
+      <h1>Contact Me</h1>
+      <br/>
+      <h3>
+        <form action="mailto:stavke@post.bgu.ac.il"  method="post" enctype="text/plain">
+          <center>
+          Name:<br/>
+          <input type="text" name="name"><br>
+          E-mail:<br/>
+          <input type="text" name="mail"><br>
+          Comment:<br/>
+          </center>
+          <textarea id="textarea" name="text"></textarea><br/><br/>
+          <!-- <center>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+          </center> -->
+      <!-- </h3> -->
+          <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+          <script type="text/javascript">
+            $('#textarea').emojioneArea({
+              pickerPosition: "up"
+            });
+          </script>
+          <center>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </center>
+        </form>
+      <br/>
+      <br/>
+      </h3>
+    </section>
 
+    <script type="text/javascript">
+    $(function(){
+      $("#nav a").click(function(e){
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash,this.hash); 
+      });
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).scroll(function() {
+        $('#menu').toggle($(this).scrollTop()>1000)
+    });​
+    </script>
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+  </body>
 </html>

@@ -1,15 +1,46 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background-color: rgb(53, 205, 239);
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: fixed;
+  margin: 0;
+  padding: 8px;
+  height: 21px;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  display: inline-block;
+  width: 100px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: rgb(199, 133, 238);
+}
+
 h1 {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	margin: 100px auto;
-	color: #020202;
+	color: #f6f4e6;
 	text-align: center;
 	font-size: 30px;
 	max-width: 600px;
@@ -20,7 +51,7 @@ h1:before, h1:after {
 	display: block;
 	width: 500px;
 	height: 5px;
-	background: rgb(53, 205, 239);
+	background: rgb(199, 133, 238);
 	top: 50%;
 	position: absolute;
 }
@@ -32,5 +63,21 @@ h1:after {
 
 }
 .section h2,h3,h4{
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: "Montserrat", sans-serif;
+	color: #9c8d8d;
+}
+
+.gallery{
+  margin: 10px 50px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
