@@ -7,7 +7,7 @@ I chose to build this website on my grandmother.
 The website conatins:
 	- A short background about her life.
 	- Pictures of her from diffrent times.
-	- A playlist of songs she loved.
+	- A song she loved.
 	- Answers for the questions from the assignment.
 	- A way to contact me through an e-mail.
 
